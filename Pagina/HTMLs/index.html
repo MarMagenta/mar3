@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prometheus</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <link rel="shortcut icon" href="/IMG/fenix.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="barr-navegacion">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Conocenos</a>
+            <a href="#">Biblioteca</a>
+            <a href="#">Archivos</a>
+            <a class="login-boton" href="#">Login</a>
+        </nav>
+    </div>
+        <section class="textos-header">
+            <h1>¿Estas listo para el ENURM?</h1>
+            <h2>Conoce mas</h2>
+            <button class="boton">Registrate</button>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M-0.27,54.78 C149.99,150.00 349.20,-49.98 508.17,111.03 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill:#f1faff;"></path>
+            </svg></div>
+
+
+        <section class="modal">
+            <div class="contenedor-modal">
+                <img src="" alt="" class="imagen-modal">
+                <h3>Registrate</h3>
+                <div class="full-name-container">
+                    <div class="registro-apellido">
+                        <label for="nombres">Nombre:</label>
+                        <input method ="post"  style="width: 96%;" class="regitro" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="registro-apellido">
+                        <label for="apellidos">Apellidos:</label>
+                        
+                        <input method ="post" style="width: 96%;" class="regitro" type="text" name="apellidos" id="apellidos"
+                            placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+                <div class="full-datos">
+                    <div class="datos ">
+                        <label 
+                        for="password"
+                        style="display: block;">
+                            Contraseña
+                        </label>
+                        <input method ="post" class="regitro" type="password" name="password" id="password"
+                            placeholder="Ingrese su contraseña">
+                    </div>
+                    <div class="datos">
+                        <label for="fecha">Ingrese su fecha de naciminto</label>
+                        <input method ="post" class="regitro" type="date" name="fecha" id="fecha">
+                    </div>
+                    <div class="datos">
+                        <label for="email">Ingrese su Correo Electronico</label>
+                        <input method ="post" class="regitro" type="email" name="email" id="email"
+                            placeholder="Ingrese su correo electronico">
+                    </div>
+            
+                </div>
+                <a class="botton-registro" id="botton-registo" href="#">Registrate</a>
+            </div>
+        </section>
+    
+
+
+        <section class="modal-login">
+            <div class="contenedor-modal">
+                <img src="" alt="" class="imagen-modal">
+                <h3>Ingresa</h3>
+               <div class="full-datos-login">
+                        <label for="email">Ingrese su Correo Electronico</label>
+                        <input class="regitro" type="email" name="email" id="email"
+                            placeholder="Ingrese su correo electronico">
+                    </div>
+                <div class="full-datos-login">
+                    <div class="datos ">
+                        <label for="password" style="display: block;"> Contraseña </label>
+                        <input class="regitro" type="password" name="password" id="password"
+                            placeholder="Ingrese su contraseña">
+                    </div>
+                </div>
+                <a class="botton-login" id="botton-login" href="#">Login</a>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <div class="container__card">
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/IMG/img1.avif);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h3>Conoce Todo lo relacionado al UNARM</h3>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h3>Windows 10</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab quas recusandae voluptatum aliquid tempore animi corporis voluptas. Tempore neque iure necessitatibus voluptas nesciunt animi dolores incidunt delectus sapiente illum.</p>
+                            <input type="button" value="Leer Más">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/IMG/img21.jpg);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h3>Mira las Estadisticas de aprovacion el examen por Universidades</h3>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1>MAC OS X Capitan</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab quas recusandae voluptatum aliquid tempore animi corporis voluptas. Tempore neque iure necessitatibus voluptas nesciunt animi dolores incidunt delectus sapiente illum.</p>
+                            <input type="button" value="Leer Más">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/IMG/img31.jpg);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h3>Comienza a estudiar ahora</h3>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h1>UBUNTU</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ab quas recusandae voluptatum aliquid tempore animi corporis voluptas. Tempore neque iure necessitatibus voluptas nesciunt animi dolores incidunt delectus sapiente illum.</p>
+                            <input type="button" value="Leer Más">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>  
+
+    </main>
+    <script  src="/JS/app.js"></script>
+    <div class="footer">
+        <div class="contactanos"></div>
+        <div class="contactanos"></div>
+        <div class="contactanos"></div>
+    </div>
+</body>
+
+</html>
